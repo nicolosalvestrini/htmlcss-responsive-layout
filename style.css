@@ -18,7 +18,7 @@
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 4rem;
     padding: 1rem 0;
 }
 
@@ -43,7 +43,7 @@ h1{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
     padding: 1rem 0;
     margin-left: 1rem;
 }
@@ -74,3 +74,135 @@ h1{
     background-color: #ffffff;
 }
 
+/*/rule bg*/
+
+/*main rule*/
+
+main{ 
+  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding-top: 2rem;
+}
+
+.padding-page{
+    padding: 0 2rem;
+}
+
+.padding-top{
+    padding-top: 2rem;
+}
+
+.margin{
+    margin-bottom: 1.4rem;
+}
+
+.general-title{
+    font-size: 1.7rem;
+    color: #a59999;
+    font-weight: 200;
+}
+
+.recipe{
+    font-size: 3rem;
+    color: #4e3969;
+    font-weight: 800;
+}
+
+.display-nn{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+
+.display-nn{
+    display: inline-block;
+}
+}
+
+.video-yt{
+    max-width: 100%;
+}
+
+.display-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+.title-ds{
+    font-size: 1.7rem;
+}
+
+.description-yt{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;  
+    margin-top: 3.5rem;
+}
+
+.description-yt{
+    max-width: 755px;
+}
+
+li{
+    margin-right: 4.1rem;
+    margin-bottom: 3rem;
+}
+
+}
+
+@media screen and (min-width: 992px) {
+
+.display-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.description-yt{
+    max-height: 420px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    font-size: 1.1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-top: 3.5rem;
+    
+}
+
+li{
+    margin-right: 4.1rem;
+    margin-bottom: 1rem;
+}
+
+
+}
