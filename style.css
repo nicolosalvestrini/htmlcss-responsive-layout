@@ -78,6 +78,8 @@ h1{
 
 /*main rule*/
 
+/*video yt*/
+
 main{ 
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
   font-optical-sizing: auto;
@@ -204,5 +206,18 @@ li{
     margin-bottom: 1rem;
 }
 
+}
 
+/*/video yt*/
+
+/*social icon*/
+
+.icons-social{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-image: url(img/facebook-logo_1080029-107.avif);
+    
 }
