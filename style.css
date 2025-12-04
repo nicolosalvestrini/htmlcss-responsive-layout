@@ -128,6 +128,10 @@ main{
 
 @media screen and (min-width: 768px){
 
+html{
+    font-size: 18px;
+}
+
 .display-nn{
     display: inline-block;
 }
@@ -164,6 +168,10 @@ li{
 
 
 @media screen and (min-width: 992px) {
+
+html{
+    font-size: 20px;
+}
 
 .display-flex{
     display: flex;
@@ -317,6 +325,26 @@ hr{
 }
 
 @media screen and (min-width: 768px) {
-    
+
+.final-main{
+    display: block;
+}
+
+.tiramisu-img{
+    width: auto;
+    height: 250px; 
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+.p-final::after{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    word-spacing: 0.7rem;
+    content: "";
+    display: block;
+    clear: both;
+  
 }
 
