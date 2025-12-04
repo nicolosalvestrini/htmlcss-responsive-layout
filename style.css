@@ -300,41 +300,23 @@ hr{
     margin-bottom: 2rem;
 }
 
-
-.disp-inline{
-    max-width: 60%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 2rem;
-}
-
-.font-size-p{
-    font-size: 1.1rem;
-    word-spacing: 5px;
-}
-
-@media screen and (min-width:768px) {
-
-.final-impression{
+.final-main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.disp-inline{
-    width: 25%;
-    position: relative;
-    left: 0;
-    transform: translateX(0%);
-    margin-bottom: 0;
+.tiramisu-img{
+    width: 70%;
+}
+
+.p-final{
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+    word-spacing: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
     
 }
-
-.font-size-p{
-    font-size: 1.3rem;
-    word-spacing: 7px;
-    line-height: 2rem;
-}
-    
-}
-
 
