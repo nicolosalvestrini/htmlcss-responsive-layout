@@ -31,20 +31,11 @@ h1{
 @media screen and (min-width: 768px) {
 
 .backround{
-    background-color: white;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #ff9614;
-    display: flex;
-    justify-content: start;
-    align-content: center;
-    
+    justify-content: start; 
 }
 
 h1{
     font-size: 5rem;
-    padding: 1rem 0;
     margin-left: 1rem;
 }
 
@@ -54,11 +45,8 @@ h1{
 
 h1{
     font-size: 6rem;
-    padding: 1rem 0;
-    margin-left: 1rem;
 }
 
-    
 }
 
 /*/rule header*/
@@ -213,14 +201,21 @@ li{
 
 /*social icon*/
 
+.logo{
+    width: 1.3rem;
+    vertical-align: middle;
+}
 .icons-social{
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
 }
 
 button{
     font-size: 1.3rem;
     padding: 1rem 2rem;
+    flex-basis: 20%;
+    height: auto;
     border: none;
     border-radius: 45%;
     background-color: white;
