@@ -163,7 +163,6 @@ html{
 }
 
 .display-flex{
-    display: flex;
     flex-direction: row;
 }
 
@@ -175,14 +174,10 @@ main{
 }
 
 ul{
-    list-style: none;
-    font-size: 1.1rem;
-    list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
     margin-top: 3.5rem;
-    
 }
 
 li{
@@ -193,7 +188,6 @@ li{
 
 .description-yt{
     border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
     border-bottom-left-radius: 0rem;
 }
 
@@ -217,7 +211,7 @@ button{
     flex-basis: 20%;
     height: auto;
     border: none;
-    border-radius: 45%;
+    border-radius: 1.5rem;
     background-color: white;
     margin-top: 2.5rem;
 }
@@ -229,11 +223,7 @@ button{
 @media screen and (min-width: 768px) {
 
 button{
-    font-size: 1.3rem;
     padding: 1rem 3.5rem;
-    border: none;
-    border-radius: 1.5rem;
-    background-color: white;
 }
 
 .img-nn{
@@ -399,34 +389,21 @@ li{
 @media screen and (min-width: 992px) {
 
 .foot-flex{
-    display: flex;
     flex-direction: row;
     justify-content:space-between;
-    color: white;
     width: 100%;
 }
 
 .copyright{
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
     margin-left: 1.5rem;
 }
 
 .li-link{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-right: 2rem;
     flex-wrap: nowrap;
-    justify-content: center;
-    
 }
 
 footer{
-    background-color: #7c69a4;
-    display: flex;
-    justify-content: center;
     padding: 1.2rem 0;
     font-size: 1.3rem;
 }
